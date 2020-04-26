@@ -5,7 +5,7 @@ Note: It takes about 17GB of space (9GB for pdf files and 8GB for epub files) an
 Via: https://group.springernature.com/gp/group/media/press-releases/freely-accessible-textbook-initiative-for-educators-and-students/17858180?utm_medium=social&utm_content=organic&utm_source=facebook&utm_campaign=SpringerNature_&sf232256230=1
 
 ### Dependencies
-1) MacOS (UNIX) or Linux - sorry Windows :(
+1) MacOS or Linux - sorry Windows users :(
 2) Bash & Python
 
 ### Usage
