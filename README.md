@@ -7,7 +7,7 @@
 
 If you have downloaded it, probably:
 ```
-cd $HOME/Downloads/springer_dl
+cd $HOME/Downloads/springer-spring-2020
 ```
 If you have cloned, you should know what to do.
 
@@ -30,7 +30,7 @@ bash catchem_all.sh --type epub
 
 4) Everything will be downloaded under the 'downloads' sub-directory.
 
-If there are some files that couldn't be downloaded, then there will be
-excel files created that list those files and related errors.
+If there are some files that couldn't be downloaded, then a couple excel
+files will be created that list those files and related errors.
 
 5) Thanks Springer!
