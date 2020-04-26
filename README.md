@@ -7,7 +7,7 @@
 
 If you have downloaded it, probably:
 ```
-cd $HOME/Downloads/springer-spring-2020
+cd $HOME/Downloads/springer-spring-2020-master
 ```
 If you have cloned, you should know what to do.
 
