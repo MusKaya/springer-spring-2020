@@ -32,6 +32,7 @@ done
 if which python3 > /dev/null 2>&1; then
     python3 -m venv .venv
     . .venv/bin/activate
+    echo "Installing packages, please wait..."
     pip3 install -r requirements.txt --disable-pip-version-check 1>/dev/null
     python3 get_springer.py --type $type
 elif which python > /dev/null 2>&1; then
@@ -39,6 +40,7 @@ elif which python > /dev/null 2>&1; then
         pip install virtualenv
     fi
     virtualenv .venv
+    echo "Installing packages, please wait..."
     pip install -r requirements2x.txt --no-python-version-warning 1>/dev/null
     python get_springer.py --type $type
 else
