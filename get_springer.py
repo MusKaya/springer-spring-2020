@@ -176,7 +176,7 @@ def download_books(download_list_path, steps):
             sub_res = subprocess.run(["bash", "-c", "if which wget > /dev/null 2>&1; then wget {} -O '{}'; fi;"
                                      .format(url, filepath)])
             if sub_res.returncode != 0:
-                raise Exception
+                raise
         except Exception:
             if os.path.exists(filepath):
                 os.remove(filepath)
