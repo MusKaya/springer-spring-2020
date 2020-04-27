@@ -173,7 +173,7 @@ def download_books(download_list_path, steps):
             print('WARN: Could not download the following items. Will try via wget:')
             print('subject: {}, url: {}, filename: {}'.format(subject, url, filename))
             time.sleep(10)
-            sub_res = subprocess.run(["bash", "-c", "if which wget > /dev/null 2>&1; then wget {} -O '{}'; fi;"
+            sub_res = subprocess.run(["bash", "-c", "wget {} -O '{}'"
                                      .format(url, filepath)])
             if sub_res.returncode != 0:
                 raise
