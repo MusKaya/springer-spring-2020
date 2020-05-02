@@ -97,7 +97,7 @@ def build_download_list(books, steps):
 
     for url, title, author, pk_name in tqdm(books[['OpenURL', 'Book Title', 'Author', 'English Package Name']].values):
         try:
-            with requests.get(url) as res:
+            with requests.get(url, stream=True) as res:
                 book_url = res.url
                 if not pdf_list_done:
                     pdf_url, pdf_filename = build_pdf_url_and_filename(book_url, title, author)
